@@ -20,7 +20,7 @@ Este projeto pode servir como base para aplicações mais complexas. Algumas ide
 - Integração com APIs externas
 - Adição de responsividade
 - Implementação de funcionalidades dinâmicas com JavaScript
-- [Outras ideias que você tenha]
+
 
 ## 📚 Aprendizados
 
@@ -29,7 +29,7 @@ Durante o desenvolvimento do Harbor Light, aprendi a:
 - Estruturar um projeto do zero
 - Organizar arquivos e pastas de forma eficiente
 - Aplicar estilos com CSS de forma mais precisa
-- [Outros aprendizados que você queira destacar]
+
 
 
 
