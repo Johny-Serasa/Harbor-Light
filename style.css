@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial, sans-serif";
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid whitesmoke;
+    background-color: rgb(250, 243, 243);
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(238, 232, 225);
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(246, 243, 248);
+    background-color: rgb(219, 183, 136);
+    padding: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin: 30px;
+}
+ main h1{
+    margin: 17px;
+ }
+ 
+ main p img{
+    border: 7px solid rgb(248, 247, 247);
+    padding: 40px;
+    width: 150vh;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+ }
+
+ .central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200vh;
+ }
+
+.init{
+    font-size: 18px;
+    width: 600px;
+    border:  5px solid whitesmoke;
+    height: 200px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+
+.init h2{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.unit{
+    font-size: 18px;
+    width: 600px;
+    border:  5px solid whitesmoke;
+    height: 200px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+
+.unit h2{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(250, 243, 243);
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+}
+
+footer strong{
+    margin-bottom: 8px;
+    text-decoration: underline;
+    font-size: 21px;
+}
